@@ -1,0 +1,14 @@
+[package]
+
+name = "rust-python"
+version = "0.0.1"
+authors = ["Kashif Malik <kashif610@gmail.com>"]
+
+[lib]
+name = "python"
+path = "src/lib.rs"
+
+
+[[bin]]
+name = "rust-python"
+path = "src/main.rs"
